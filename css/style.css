@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    background-image: url(../img/pic6.jpg);
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+    height: 89px;
+    background-color:#B1B1E6;
+    padding-top: 25px;
+}
+.one{
+    margin-left: 76vw;
+}
+a{
+    size: 30px;
+    color: #151533;
+    font-family: 'Yellowtail', cursive;
+}
+.logo{
+    width: 105px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 24px;
+}
+header{
+    background-color:#B1B1E6;
+}
+h3{
+    margin: 0px;
+}
+a{
+    margin-top: 0px;
+}
+.navlinks{
+    position: relative;
+    bottom: 70px;
+}
+
