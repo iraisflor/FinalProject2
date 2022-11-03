@@ -9,12 +9,46 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+       <h5> </h5>
+    </header>
     <H1></H1>
     <nav> 
         <img class="logo" src="img/logo.png" alt="My Logo">
         <a class="one navlinks" href="index.html">Home</a>
-        <a class=" navlinks" href="about.html">About</a>
+        <a class=" navlinks" href="Photos.html">Photos</a>
         <a class="navlinks" href="contact.html">Contact</a>
     </nav>
+
+    <h3 class="nn">Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="name">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="korea">Korea</option>
+      <option value="mexico">Mexico</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    <footer>
+        
+        
+    </footer>
 </body>
 </html>
