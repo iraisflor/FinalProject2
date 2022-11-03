@@ -1,8 +1,10 @@
 body{
     margin: 0px;
+    background-image: url(..img/pic3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color:#8587ff
 }
 *{
     box-sizing: border-box;
@@ -111,4 +113,10 @@ input[type=submit]:hover {
   }
   .fa-brands fa-instagram{
     color: #7a0085;
+  }
+  p{
+    text-align: center;
+    font-weight: 800;
+    font-style: normal;
+    font-size: large;
   }
